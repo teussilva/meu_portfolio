@@ -1,0 +1,137 @@
+.home .home-content, .habilidades .habilidades-content .habilidades-info{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   position: relative;
+}
+.home .home-content .column{
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+.home .home-content .left{
+    text-align: start;
+    max-width: 55%;
+    width: 55%;
+    color: var(--prim--color--4);
+    padding-top: 3.912rem;
+}
+.home .home-content .left .my-name{
+    font-size: 2.333rem;
+}
+.sobre .sobre-content h2, 
+.habilidades .habilidades-content h2, 
+.projetos .projetos-conteudo h2,
+.contato .contato-content h2{
+    font-size: 2.312rem;
+    text-align: center;
+}
+.home .home-content .left .area-of-activity{
+    font-size: 1.312rem;
+    margin: 20px 0;
+}
+.home .home-content .left .buttons-control{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.home .home-content .left .buttons-control .button-info button{
+    max-width: max-content;
+    background: var(--prim--color--5);
+    padding: 1rem 2.2rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--prim--color--4);
+    white-space: nowrap;
+}
+.home .home-content .right {
+    max-width: 45%;
+    width: 45%;
+}
+.home .home-content .right .right-img-profile {
+    /* background: blue; */
+    position: absolute;
+    right: 1.5rem;
+}
+.home .home-content .right .right-img-profile  img{
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    padding: 1rem;
+    object-fit: cover;
+}
+@media (max-width: 1000px) {
+    .home .home-content{
+        grid-template-columns: 100%;
+    }
+    .home .home-content .left,
+    .home .home-content .right {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .home .home-content .right .right-img-profile {
+       display: none;
+    }
+    .home .home-content .left .buttons-control{
+        justify-content: center;
+    }
+    .home .home-content .left .buttons-control .button-info button{
+        padding: 12px 24px;
+    }
+}
+@media (max-width: 768px) {
+    .home .home-content, .habilidades .habilidades-content .habilidades-info {
+        grid-template-columns: 100%;
+    }
+    .home .home-content .left,
+    .home .home-content .right {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .home .home-content .left .my-name, .sobre .sobre-content h2{
+        font-size: 1.8rem;
+    }
+    .home .home-content .left .area-of-activity{
+        font-size: 1.075rem;
+        margin: 24px 0;
+    }
+    .home .home-content .right .right-img-profile {
+       display: none;
+    }
+    .home .home-content .left .buttons-control{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home .home-content .left .buttons-control .button-info button{
+        padding: 12px 24px;
+    }
+}
+@media (max-width: 600px) {
+    .home .home-content {
+        grid-template-columns: 100%;
+    }
+    .home .home-content .left,
+    .home .home-content .right {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .home .home-content .left .my-name, .sobre .sobre-content h2,  .habilidades .habilidades-content h2{
+        font-size: 1.355rem;
+    }
+    .home .home-content .left .area-of-activity{
+        font-size: 0.955rem;
+        margin: 24px 0;
+    }
+    .home .home-content .right .right-img-profile {
+       display: none;
+    }
+    .home .home-content .left .buttons-control{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home .home-content .left .buttons-control .button-info button{
+        padding: 12px 24px;
+    }
+}

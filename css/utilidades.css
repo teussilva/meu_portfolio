@@ -1,0 +1,46 @@
+section{
+    padding: 6.75rem  2rem;
+}
+.container{
+    max-width: 2400px;
+    padding: 10px 30px;
+    margin: auto;
+}
+
+
+.home, .sobre, .habilidades, .projetos, .contato{
+    background: var( --prim--color--1);
+    color: var(--prim--color--4);
+    min-height: calc(100vh - 180px);
+}
+.hidden{
+    display: none;
+}
+
+@media(min-width: 1335px){
+    .container{
+        max-width: 1300px;
+        padding: 10px 80px;
+    }
+}
+
+@media(max-width: 1330px){
+    .container{
+        max-width: 1300px;
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        max-width: 1300px;
+        padding: 10px 0.9rem;
+    }
+}
+
+@media(max-width: 768px){
+    .container{
+        max-width: 1300px;
+        padding: 10px 1.6rem;
+    }
+}

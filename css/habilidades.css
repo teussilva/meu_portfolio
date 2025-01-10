@@ -1,0 +1,19 @@
+.habilidades .habilidades-content .habilidades-info .info h3{
+  margin-left: -1.5rem;
+  margin-bottom: 22px;
+  font-size: 26px;
+}
+.habilidades .habilidades-content .habilidades-info .info .ul-item li{
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 1rem;
+}
+.habilidades .habilidades-content .habilidades-info .info .ul-item li::before{
+    position: absolute;
+    left: -24px;
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: var(--prim--color--2);
+    border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+.contato .contato-content .contato-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.75rem;
+    margin-top: 80px;
+}
+.contato .contato-content .contato-info .info-box{
+    text-align: center;
+}
+.contato .contato-content .contato-info .info-box .my-data-contato{
+    padding-top: 1rem;
+}
+.contato .contato-content .contato-info .info-box .my-data-contato div{
+    margin-bottom: 0.6rem;
+}
