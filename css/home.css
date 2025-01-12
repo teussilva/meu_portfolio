@@ -57,7 +57,21 @@
     height: auto;
     padding: 1rem;
     object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--prim--color--5);
+    animation: mover-lados 3s infinite ease-in-out;
 }
+@keyframes mover-lados {
+    0% {
+      transform: translateX(0); /* Posição inicial */
+    }
+    50% {
+      transform: translateX(20px); /* Move para a direita */
+    }
+    100% {
+      transform: translateX(0); /* Volta para a posição inicial */
+    }
+  }
 @media (max-width: 1000px) {
     .home .home-content{
         grid-template-columns: 100%;
