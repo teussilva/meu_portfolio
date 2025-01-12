@@ -15,22 +15,35 @@
     <nav>
         <div class="nav-content container">
             <div class="icon bars">
-                <img src="./img/Menu.png" alt="" width="16px" height="16px">
+                <img data-js="icon-bars" src="./img/Menu.png" alt="" width="16px" height="16px">
             </div>
-            <a href="#" class="logo">Bem vindo ao meu portfólio.</a>
-            <div class="icon bars">
-                <img src="./img/Moon.png" alt="" width="18px" height="18px">
+            <a data-js="anime-text" class="header-logo color-black" href="#home" class="logo">Bem vindo ao meu portfólio.</a>
+            <div class="icon moon">
+                <img  data-js="icon-moon" src="./img/Moon.png" alt="" width="18px" height="18px">
             </div>
         </div>
     </nav>
   </header>
+
+  <div class="links-menu">
+    <div class="icon-close">
+      <img src="./img/close.png" alt="icone para fechar menu">
+    </div>
+    <nav>
+      <a href="#home">Home</a> 
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
 
   <!-- Seção Home -->
   <section class="home" id="home">
     <div class="home-content container">
       <div class="left column">
         <div class="my-name">Olá, eu sou<br>Matheus Henrique.</div>
-        <div class="area-of-activity">Aspirate a desenvolvedor Front-End</div>
+        <div class="area-of-activity">Desenvolvedor Front-End</div>
         <div class="buttons-control">
           <div class="button-info">
             <button>Dawnload CV</button>
@@ -49,20 +62,20 @@
   </section>
 
   <!-- Sobre Mim -->
-  <section class="sobre" id="sobre">
+  <section class="sobre anime-section" id="sobre">
     <div class="container">
       <div class="sobre-content">
-        <h2 style="color:#1E3E62">Sobre mim</h2>
+        <h2 class="text-h2">Sobre mim</h2>
         <p>Olá! Sou Matheus Henrique Alves da Silva, estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia. Sempre em busca de aprender e evoluir, estou desenvolvendo minhas habilidades em programação para criar soluções criativas e funcionais.</p>
       </div>
     </div>
   </section>
 
   <!-- Habilidads -->
-  <section class="habilidades" id="habilidades">
+  <section class="habilidades anime-section" id="habilidades">
     <div class="container">
       <div class="habilidades-content">
-        <h2 style="color:#1E3E62">Hablidades Desenvolvidas</h2>
+        <h2 class="text-h2">Hablidades Desenvolvidas</h2>
         <div class="habilidades-info">
           <div class="info">
             <h3>Faculdade:</h3>
@@ -86,10 +99,11 @@
   </section>
 
   <!-- projtos -->
-  <section class="projetos" id="projetos">
+  <section class="projetos anime-section" id="projetos">
     <div class="container">
       <div class="projetos-content">
-        <h2 style="color:#1E3E62">Projetos</h2>
+        <h2 class="text-h2">Projetos</h2>
+        <br>
         <h3>Todos os projetos</h3>
         <div class="projetos-info">
           <div class="info-projeto">
@@ -97,7 +111,7 @@
               <img src="/img/projetos/projeto-imagem-1.png" alt="">
               <div class="data-info-bg">
                 <div class="data-projeto">24/10/2024</div>
-                <div class="btn-projto">
+                <div class="btn-projeto">
                   <a href="#">Ver mais</a>
                 </div>
               </div>
@@ -108,7 +122,7 @@
               <img src="/img/projetos/projeto-imagem-2.png" alt="">
               <div class="data-info-bg">
                 <div class="data-projeto">14/11/2024</div>
-                <div class="btn-projto">
+                <div class="btn-projeto">
                   <a href="#">Ver mais</a>
                 </div>
               </div>
@@ -119,7 +133,7 @@
               <img src="/img/projetos/projeto-imagem-3.png" alt="">
               <div class="data-info-bg">
                 <div class="data-projeto">12/10/2024</div>
-                <div class="btn-projto">
+                <div class="btn-projeto">
                   <a href="#">Ver mais</a>
                 </div>
               </div>
@@ -131,10 +145,10 @@
   </section>
 
   <!-- Contato -->
-  <section  class="contato" id="contato">
+  <section class="contato anime-section" id="contato">
    <div class="container">
       <div class="contato-content">
-        <h2 style="color:#1E3E62">Contato</h2>
+        <h2 class="text-h2">Contato</h2>
         <div class="contato-info">
           <div class="info-box">
             <div class="contato-img">
@@ -172,5 +186,10 @@
   <footer>
     <p>&copy; 2025 Matheus. Todos os direitos reservados.</p>
   </footer>
+
+  <script src="./js/menu.js"></script>
+  <script src="./js/dark.js"></script>
+  <script src="./js/scroll-dinamico.js"></script>
+  <script src="./js/anime-text.js"></script>
 </body>
 </html>

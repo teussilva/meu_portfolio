@@ -14,3 +14,10 @@
 .contato .contato-content .contato-info .info-box .my-data-contato div{
     margin-bottom: 0.6rem;
 }
+
+@media screen and (max-width: 768px) {
+    .contato .contato-content .contato-info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root{
-    --prim--color--1: #1E201E;
+    --prim--color--1: #000;
     --prim--color--2: #1E3E62;
     --prim--color--3: #F3F3E0;
     --prim--color--4: #FFFFFF;
@@ -11,16 +14,44 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Popppins', Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 html, body{
     height: 100%;
+    width: 100%;
+}
+body{
+    background: var( --prim--color--1);
+    color: var(--prim--color--4);
+}
+body.active{
+    background: var( --prim--color--4);
+    color: var(--prim--color--1);
 }
 
-ul{
+ul, nav li{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 img{
     max-width: 100%;
+}
+h2,h3{
+    font-weight: 400;
+}
+p{
+    font-weight: 100;
+}
+footer{
+    background: var(--prim--color--2);
+    color: var(--prim--color--3);
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
 }

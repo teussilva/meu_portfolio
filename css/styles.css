@@ -1,4 +1,5 @@
 @import '/css/global/global.css';
+@import '/css/fonts/fonts.css';
 
 @import '/css/header.css';
 @import '/css/home.css';
@@ -6,5 +7,6 @@
 @import '/css/habilidades.css';
 @import '/css/projetos.css';
 @import '/css/contato.css';
+@import '/css/link-menu.css';
 
 @import '/css/utilidades.css'

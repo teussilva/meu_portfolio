@@ -1,12 +1,21 @@
 header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    background: var(--prim--color--2);
+    background:transparent;
     padding: 0.5rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 100;
+    transition: .3s ease-in-out;
 }
-
+header.active{
+    background: var(--prim--color--2);
+}
+header .header-logo{
+    color: var(--prim--color--4);
+    font-size: 26px;
+    font-weight: 500;
+}
 
 header nav .container{
     display: flex;

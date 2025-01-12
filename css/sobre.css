@@ -1,3 +1,8 @@
 .sobre .sobre-content h2, .habilidades .habilidades-content h2{
     margin-bottom: 63.33px;
 }
+.sobre .sobre-content > p{
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.5;
+}

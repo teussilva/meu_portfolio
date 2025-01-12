@@ -1,0 +1,37 @@
+.links-menu{
+   position: fixed;
+   top: 0;
+   left: -100%;
+   transform: translateX(-50%);
+   background: #000;
+   opacity: 75%;
+   width: 100%;
+   height: 100vh;
+   text-align: center;
+   padding: 164px;
+   z-index: 9999;
+   transition: transform 0.3s ease-in-out;
+}
+.links-menu.active{
+    left: 50%;
+}
+.links-menu .icon-close{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+.links-menu .icon-close img{
+    font-size: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.links-menu .icon-close img:hover{
+    transform: rotate(90deg);
+}
+.links-menu nav a{
+    display: block;
+    margin: 35px auto;
+    font-size: 23px;
+    cursor: pointer;
+    color: var(--prim--color--4);
+}
