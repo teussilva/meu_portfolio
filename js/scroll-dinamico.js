@@ -23,7 +23,6 @@ let init = () =>{
         }else{
             header.classList.remove('active')
         }
-        
         animateScrollIntoDOM(allSection, position)
     })
 }

@@ -20,12 +20,14 @@
     top: 80px;
     left: 20px;
 }
-.links-menu .icon-close img{
+.links-menu .icon-close img,
+.projetos .descricao-do-projeto .descricao-content .right .descricao-header .icon-close-projeto img{
     font-size: 28px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
-.links-menu .icon-close img:hover{
+.links-menu .icon-close img:hover,
+.projetos .descricao-do-projeto .descricao-content .right .descricao-header .icon-close-projeto img:hover{
     transform: rotate(90deg);
 }
 .links-menu nav a{
@@ -34,4 +36,31 @@
     font-size: 23px;
     cursor: pointer;
     color: var(--prim--color--4);
+    position: relative;
+}
+.links-menu nav a::before{
+    content: '';
+    position: absolute;
+    margin-left: -20px;
+    width: 0;
+    height: 0;
+    background: var(--prim--color--5);
+    border-radius: 50%;
+    transform: translateY(6px);
+    transition: 1s ease;
+}
+.links-menu nav a::after{
+    content: '';
+    position: absolute;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    background: var(--prim--color--5);
+    border-radius: 50%;
+    transform: translateY(6px);
+    transition: 1s ease;
+}
+.links-menu nav a:hover::before, .links-menu nav a:hover::after{
+    width: 13px;
+    height: 13px;
 }

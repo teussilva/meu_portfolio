@@ -105,37 +105,23 @@
         <h2 class="text-h2">Projetos</h2>
         <br>
         <h3>Todos os projetos</h3>
-        <div class="projetos-info">
-          <div class="info-projeto">
-            <div class="projeto-img">
-              <img src="/img/projetos/projeto-imagem-1.png" alt="">
-              <div class="data-info-bg">
-                <div class="data-projeto">24/10/2024</div>
-                <div class="btn-projeto">
-                  <a href="#">Ver mais</a>
-                </div>
+        <div data-js="projetos-info" class="projetos-info"></div>
+        <div class="descricao-do-projeto bg-color hidden">
+          <div class="descricao-content new-container active">
+            <div class="left column">
+              <div class="descricao-img">
+                <img src="./img/projetos/projeto-imagem-1.png" alt="">
               </div>
             </div>
-          </div>
-          <div class="info-projeto">
-            <div class="projeto-img">
-              <img src="/img/projetos/projeto-imagem-2.png" alt="">
-              <div class="data-info-bg">
-                <div class="data-projeto">14/11/2024</div>
-                <div class="btn-projeto">
-                  <a href="#">Ver mais</a>
+            <div class="right column">
+              <div class="descricao-header">
+                <div class="descricao-nome">Carrossel Interativo</div>
+                <div class="icon-close-projeto">
+                  <img id="close-img" src="./img/close.png" alt="icone para fechar menu" width="26px" height="26px">
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="info-projeto">
-            <div class="projeto-img">
-              <img src="/img/projetos/projeto-imagem-3.png" alt="">
-              <div class="data-info-bg">
-                <div class="data-projeto">12/10/2024</div>
-                <div class="btn-projeto">
-                  <a href="#">Ver mais</a>
-                </div>
+              <div class="descricao-text">
+                <p>Um componente funcional para exibição de conteúdos de forma rotativa e dinâmica. Desenvolvido com HTM, CSS e JavaScript, o carrossel oferece transições suaves e uma interface intuitiva, permitindo que o usuário navegue entre imagens ou textos de maneira prática.</p>
               </div>
             </div>
           </div>
@@ -187,9 +173,13 @@
     <p>&copy; 2025 Matheus. Todos os direitos reservados.</p>
   </footer>
 
+  <script src="./js/list-projeto.js"></script>
   <script src="./js/menu.js"></script>
   <script src="./js/dark.js"></script>
   <script src="./js/scroll-dinamico.js"></script>
   <script src="./js/anime-text.js"></script>
+  <script src="./js/insert-project-into-dom.js"></script>
+  <script src="./js/descricao-projeto.js"></script>
+
 </body>
 </html>

@@ -1,8 +1,9 @@
 .projetos .projetos-info{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 6.75rem;
-    padding-top: 45px;
+    justify-content: center;
+    gap: 80px;
 }
 
 .projetos .projetos-info .info-projeto .projeto-img .data-info-bg{
@@ -27,7 +28,38 @@
     padding: 11px 22px 12px 24px;
     cursor: pointer;
 }
-
+.projetos .descricao-do-projeto{
+    position: fixed;
+    top: 42%;
+    z-index: 999;
+    max-width: 1200px;
+    width: 1200px;
+}
+.projetos .descricao-do-projeto .descricao-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2%;
+    display: none;
+}
+.projetos .descricao-do-projeto .descricao-content.active{
+    display: block;
+}
+.projetos .descricao-do-projeto .descricao-content .right .descricao-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid red;
+    padding: 0.6rem 0;
+    margin: 14px 0;
+}
+.projetos .descricao-do-projeto .descricao-content .right .descricao-text{
+    padding: 10px;
+    margin: 40px auto;
+    border: 3px solid red;
+}
+.projetos .descricao-do-projeto .descricao-content .right .descricao-text p{
+    line-height: 1.7;
+}
 @media(max-width: 1000px) {
     .projetos .projetos-info, .contato .contato-content .contato-info{
         flex-wrap: wrap;

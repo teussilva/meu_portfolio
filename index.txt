@@ -1,0 +1,33 @@
+ <!-- <div class="info-projeto">
+            <div class="projeto-img">
+              <img src="/img/projetos/projeto-imagem-1.png" alt="">
+              <div class="data-info-bg">
+                <div class="data-projeto">24/10/2024</div>
+                <div class="btn-projeto">
+                  <a href="#">Ver mais</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="info-projeto">
+            <div class="projeto-img">
+              <img src="/img/projetos/projeto-imagem-2.png" alt="">
+              <div class="data-info-bg">
+                <div class="data-projeto">14/11/2024</div>
+                <div class="btn-projeto">
+                  <a href="#">Ver mais</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="info-projeto">
+            <div class="projeto-img">
+              <img src="/img/projetos/projeto-imagem-3.png" alt="">
+              <div class="data-info-bg">
+                <div class="data-projeto">12/10/2024</div>
+                <div class="btn-projeto">
+                  <a href="#">Ver mais</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
